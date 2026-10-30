@@ -369,10 +369,6 @@ else:
         '<p class="section-lead">Try the interactive form and leave a message for this portfolio demo.</p>',
         unsafe_allow_html=True,
     )
-    st.warning(
-        "Classroom demo only: submissions stay in this browser session and are not emailed "
-        "or saved to a database. Do not enter confidential information."
-    )
     with st.form("feedback_form", clear_on_submit=True):
         visitor_name = st.text_input("Your name", placeholder="Enter a first name or nickname")
         topic = st.selectbox("What would you like to comment on?", ["Portfolio design", "Projects", "Skills", "General feedback"])
