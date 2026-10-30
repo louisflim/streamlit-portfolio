@@ -71,7 +71,7 @@ PROJECTS = [
         "tools": "Python",
         "problem": "A hotel-related software project. Add the exact problem addressed in my own words.",
         "work": "Add the parts I developed, such as the interface, database, or business logic, after checking the original project.",
-        "outcome": "Outcome details are pending verification of the original project repository.",
+        "outcome": "Created a Hotel Management System.",
         "lesson": "Learned how to use Python",
         "repo": "https://github.com/louisflim/hotel-system",
         "repo_verified": True,
