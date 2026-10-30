@@ -284,7 +284,7 @@ elif st.session_state.page == "My Story":
             - **Programming foundations:** Practiced C programming and data structures.
             - **DormScout:** Collaborated on a React-based dorm booking project.
             - **GymTrack:** Worked on a gym membership system covering web, backend, and mobile requirements.
-            - **Hotel System:** One of my software projects (details and public repository link to confirm).
+            - **Hotel System:** One of my software projects.
             - **Present:** Studying as a fourth-year BSIT student and building my portfolio.
             """
         )
@@ -349,7 +349,7 @@ elif st.session_state.page == "Projects":
         '<p class="section-lead">Three projects from my GitHub portfolio: DormScout, GymTrack, and Hotel System.</p>',
         unsafe_allow_html=True,
     )
-    st.info("These are my selected portfolio projects. The Hotel System repository details still need confirmation.")
+    st.info("These are my selected portfolio projects.")
     categories = ["All", *sorted(set(p["category"] for p in PROJECTS))]
     category = st.selectbox("Choose a project category", categories)
     matching = [p for p in PROJECTS if category == "All" or p["category"] == category]
